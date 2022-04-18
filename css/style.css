@@ -335,7 +335,11 @@ a:hover {
     line-height: 163.68%;
     color: #181818;
 }
-
+.text-3{
+    font-size: 14px;
+    line-height: 163.68%;
+    color: white;
+}
 .label {
     cursor: pointer;
 }
@@ -402,11 +406,14 @@ a:hover {
     font-size: 18px;
     line-height: 25px;
     color: #363636;
+    padding-left: 37px;
+    padding-top: 28px;
 }
 .container-repair{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 31px;
 }
 .repair-img{
     width: 392;
@@ -437,5 +444,554 @@ a:hover {
     align-items: center;
     justify-content: center;
     margin-top: -28px;
+    padding: 17px 17px;
     
 }
+/* ---------------------------------------------------------------------------- */
+.container4-1 {
+    padding-right: 8px;
+    position: relative;
+    height: 1113px;
+  }
+  
+  .building-slide4 {
+    position: absolute;
+    margin-top: 152px;
+    width: 703px;
+    height: 645px;
+    margin-left: -102px;
+    box-shadow: none;
+  }
+  
+  .advantages-list {
+    margin-top: 0px;
+    list-style-position: outside;
+    padding-inline-start: 0px;
+    margin-left: 0px;
+  }
+  
+  .advantages-wrapper {
+    position: absolute;
+    margin-top: 269px;
+    margin-left: 139px;
+  }
+  
+  .advantage {
+    list-style: none;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+  
+    color: #363636;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+    margin-bottom: 85px;
+    margin-left: 9px;
+  }
+  
+  .outer-circle {
+    background: white;
+    border-radius: 50%;
+    height: 58px;
+    width: 58px;
+    position: relative;
+    /* 
+     Child elements with absolute positioning will be 
+     positioned relative to this div 
+    */
+  }
+  
+  .inner-circle {
+    position: absolute;
+    background: #E3B873;
+    border-radius: 50%;
+    height: 42px;
+    width: 42px;
+    /*
+     Put top edge and left edge in the center
+    */
+    top: 50%;
+    left: 50%;
+    margin: -21px 0px 0px -21px;
+    /* 
+     Offset the position correctly with
+     minus half of the width and minus half of the height 
+    */
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 42px;
+    text-align: center;
+  
+    color: #FFFFFF;
+  }
+  
+  
+  .request-wrapper {
+    position: absolute;
+    margin-top: 257px;
+    margin-left: 731px;
+    background-color: black;
+    width: 506px;
+    height: 509px;
+  }
+  
+  .form-inputs-s4 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .text-s4 {
+    color: white;
+  }
+  
+  .form-input-name-s4 {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+  
+    color: rgba(255, 255, 255, 0.5);
+  
+    width: 408px;
+  
+    margin-left: 49px;
+    margin-bottom: 48px;
+  }
+  
+  .request-form-s4-subtitle {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+  
+    color: #FFFFFF;
+    margin-bottom: 39px;
+    margin-top: 28px;
+  }
+  
+  .form-input-s4::placeholder {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;  
+  }
+  
+  .form-input-s4 {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    margin-top: 7px;
+    }
+  
+    .first-checkbox-s4 {
+      margin-left: 49px;
+      margin-bottom: 33px;
+      margin-top: 0px;
+    }
+  
+    .button-text-s4 {
+      font-family: 'Nunito Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 21px;
+      text-transform: uppercase;
+      
+      color: #FFFFFF;
+      width: 213px;
+      height: 51px;
+    
+    
+      align-self: start;
+  
+      border-style: solid;
+      border-color: #E3B873;
+      background: #E3B873;
+      box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+      margin: 0;
+      padding: 0;
+      margin-left: 244px;
+    }
+  
+  .bottom-input {
+    margin-bottom: 16px;
+  }
+  
+  .form-bottom-text-s4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 44px;
+    margin-left: 21px;
+  }
+  
+  .piggy-bank-text {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+  
+    color: #E3B873;
+  
+    text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+  }
+  
+  .container5 {
+    position: relative;
+    padding: 0px 8px;
+    display: flex;
+    
+  }
+  
+  .slide5 {
+    position: relative;
+    background-image: url('../images/slide5/slide5_background.svg');
+    height: 864px;
+  }
+  
+  .slide5-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(109.8deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.9) 100%);
+  }
+  
+  .header-s5 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    padding-top: 137px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  
+  .deco-styles-s5 {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    list-style: none;
+    list-style-position: inside;
+    
+    color: #FFFFFF;
+  
+    padding-left: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+  
+    height: 513px;
+  }
+  
+  .american-style {
+    color: #E3B873;
+    text-decoration: #E3B873 underline;
+  }
+  
+  .pics-col1-s5 {
+    margin-left: 215px;
+    margin-top: -41px;
+  }
+  
+  .pics-col2-s5 {
+    margin-left: 5px;
+    margin-top: -113px;
+  }
+  
+  .left-text-s5 {
+    min-width: 280px;
+  }
+  
+  .col1row2 {
+    margin-top: 32px;
+  }
+  
+  .col2row2 {
+    margin-top: 31px;
+  }
+  
+  .nav-s5 {
+    margin-top:36px ;
+  }
+  
+  .li-s5 {
+    margin-top: 10px;
+  }
+  
+  .slide6 {
+    background-color: white;
+    position: relative;
+    height: 1108px;
+  }
+  
+  .header-s6 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+  
+    color: #181818;
+    padding-top: 111px;
+  }
+  
+  .partner-logo-s6 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+  }
+  
+  .desc-s6 {
+    width: 365px;
+    margin: 25px auto 43px auto;
+    text-align: center;
+  }
+  
+  .clients-words {
+    width: 376px;
+    height: 455px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+    padding: 0px 20px 0px 20px;
+  
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    
+    color: #959595;
+  }
+  
+  .testimonies {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .portrait {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    
+    color: #181818;
+  
+    margin-top: 24px;
+    height: 86px;
+  }
+  
+  .name-s6 {
+    width: 178px;
+    padding-left: 20px;
+  }
+  
+  .client-details {
+    margin-top: 37px;
+    margin-left: -20px;
+  }
+  
+  .city-wrapper {
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -394px;
+  }
+  
+  .callback-form {
+    width: 883px; 
+    height: 445px; /*445*/
+    background: #181818; /*#181818*/
+    margin-top: -223px;
+  
+    position: absolute;
+    left: 50%;
+    margin-left: -441px;
+  }
+  
+  .header-s7 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+  
+    padding-top: 34px;
+  }
+  
+  .form-input-s7 {
+    width: 231px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  
+    color: #FFFFFF;
+    margin-right: 50px;
+  }
+  
+  .form-input-name-s7 {
+    color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-input-s7::placeholder {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    
+    color: #FFFFFF;
+  }
+  
+  .form-input-long-s7 {
+    width: 517px;
+  }
+  
+  .inputs-s7 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 179px;
+  }
+  
+  .row1-wrapper-s7 {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .margin50 {
+    margin-top: 50px;
+  }
+  
+  .text {
+    color: white;
+  }
+  
+  .button-text-s7 {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 27px;
+    /* identical to box height */
+  
+    text-align: center;
+    text-transform: uppercase;
+  
+    color: #FFFFFF;
+    width: 200px;
+    height: 35px;
+  
+    border: none;
+    border-radius: 2px;  
+  }
+  
+  .button-s7 {
+    width: 200px;
+    height: 51px;
+    margin-left: 341px;
+    margin-right: 341px;
+  }
+  
+  .box-s7 {
+    margin-bottom: 50px;
+  }
+  
+  .slide7 {
+    background: #181818;
+    position: relative;
+    height: 954px;
+  }
+  
+  .pic-wrapper-s7 {
+    background-image: url("images/slide7/slide7-back.svg");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position:absolute
+  }
+  
+  .slide7-overlay {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%);
+    position:absolute;
+  }
+  
+  .office-address {
+    width: 590px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #E3B873;
+  
+    position: absolute;
+  
+    left: 50%;
+    margin-left: -295px;
+    margin-top: 275px;
+  }
+  
+  .logo-s7 {
+    width: 70px;
+    left: 50%;
+    margin-left: -35px;
+    margin-top: 353px;
+    position: absolute;
+  }
+  
+  .map-s7 {
+    width: 926px;
+    left: 50%;
+    margin-left: -463px;
+    margin-top: 422px;
+    position: absolute;
+  }
+  
+  footer {
+    background-color: #181818; 
+    height: 133px;
+  }
+  
+  .footer-menu {
+    padding-top: 55px;
+  }
