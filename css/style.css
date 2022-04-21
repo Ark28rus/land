@@ -33,7 +33,13 @@ body * {
     color: white;
     text-transform: uppercase;
 }
-
+.button:hover{
+  background-color: transparent;
+  border: 1px;
+  border-color: white;
+  border-radius: 2px;
+  border-style: solid;
+}
 .logo {
     color: #E3B873;
 }
@@ -300,7 +306,7 @@ a:hover {
     color: rgba(54, 54, 54, 0.5);
 }
 .input-1{
-    width: 340px;
+    width: 231px;
     border: none;
     border-bottom: 1px solid rgba(255, 254, 254, 0.15);
     height: 25px;
@@ -445,6 +451,7 @@ a:hover {
     justify-content: center;
     margin-top: -28px;
     padding: 17px 17px;
+    margin-left: 31px;
     
 }
 /* ---------------------------------------------------------------------------- */
@@ -925,6 +932,14 @@ a:hover {
     height: 51px;
     margin-left: 341px;
     margin-right: 341px;
+  }
+  .button-form:hover {
+  background-color: transparent;
+  border: 1px;
+  border-color: black;
+  border-radius: 2px;
+  border-style: solid;
+  color: black;
   }
   
   .box-s7 {
